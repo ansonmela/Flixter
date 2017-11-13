@@ -18,3 +18,7 @@ AWS_SECRET_KEY: "I6rvWXOogOmcQ4fCed/MsXLc2QjJWdG5pcblX0GM"
 AWS_BUCKET: "flixterpicsanson"
 
 AWS_REGION: "us-east-1"
+
+SECRET_KEY: sk_test_iQLvU4Qg8KhYMUks0CLSqlwR
+
+PUBLISHABLE_KEY: pk_test_QA6CkejMgoILzzFobv0codsO
