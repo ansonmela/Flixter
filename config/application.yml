@@ -11,14 +11,14 @@
 #   stripe_publishable_key: pk_live_9lcthxpSIHbGwmdO941O1XVU
 
 
-AWS_ACCESS_KEY: "AKIAICQR5UJPIBS
+AWS_ACCESS_KEY: "AKIAICQR5UJPIBSJMNLQ"
 
-AWS_SECRET_KEY: "I6rvWXOogOmcQ4fCed/MsXLc2QjJ
+AWS_SECRET_KEY: "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"
 
 AWS_BUCKET: "flixterpicsanson"
 
 AWS_REGION: "us-east-1"
 
-SECRET_KEY: sk_test_iQLvU4Qg8KhYMU
+SECRET_KEY: sk_test_iQLvU4Qg8KhYMUks0CLSqlwR
 
-PUBLISHABLE_KEY: pk_test_QA6CkejMgoILzzFo
+PUBLISHABLE_KEY: pk_test_QA6CkejMgoILzzFobv0codsO
