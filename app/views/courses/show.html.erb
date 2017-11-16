@@ -7,12 +7,12 @@
 			<%= image_tag @course.image, class: 'img-fluid' %>
 		<% end %>
 
-
+		<br />
 	<br />
 	<div class="row">
 		<div class="col-sm-4 col-12 text-center">
 			<span class="badge badge-info">
-				<%= number_to_currency @course.cost %>
+				<h5><%= number_to_currency @course.cost %></h5>
 			</span>
 
 			<% if current_user && current_user == @course.user %>
@@ -59,7 +59,7 @@
 					<%= section.title %>
 				</h3>
 				<div class="row">
-					<% section.lessons.each do |lesson| %>
+					<% section.lessons.rank(:row_order).each do |lesson| %>
 						<div class="col-12 col-sm-6">
 							<div class="lesson text-center">
 								<br />
