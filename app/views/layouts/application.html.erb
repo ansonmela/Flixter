@@ -29,10 +29,16 @@
     <ul class="navbar-nav">
 
       <% if user_signed_in? %>
+
         <li class="nav-item">
-          <%= 'A user is signed in!' %>
-        </li>
-      <% end %>
+            <%= 'A user is signed in!' %>
+          </li>
+          <br />
+          <li class="nav-item">
+            <%= link_to 'My Dashboard', dashboard_path %>
+          </li>
+
+        <% end %>
 
     </ul>
 </li>
@@ -82,7 +88,7 @@
   </div>
 
   <div id="footer">
-    <div class="container">
+    <div class="course-container">
       <b>Teachers</b>
       <br />
       <%= link_to 'Teach a Course', new_instructor_course_path %>
